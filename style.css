@@ -1,0 +1,59 @@
+#solution{
+    margin-left: 100px;
+    display: flex;
+}
+body{
+    overflow-x: hidden;
+}
+#nav{
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    background-color: whitesmoke;
+}
+#center{
+    justify-content: center;
+    margin-left: 390px;
+}
+@media screen  and (max-width:472px){
+    #solution{
+        display: none;
+    }
+    .d-flex{
+        width: 50px !important;
+        height: 70px;
+    }
+    #request{
+        display: none;
+    }
+    #button{
+        width: 90px;
+        display: none;
+    }
+    #image{
+        width: 95%;
+        margin-left: -30px;
+    }
+    #center{
+        margin-left: -0px;
+        width: 80%;
+    }
+    #app{
+        width: 86%;
+    }
+    #learning{
+        position: relative;
+        width: 70%;
+        left: -80px;
+    }
+    #oursolution{
+        position: relative;
+        top: 293px;
+        flex-direction: row;
+    }
+    #second{
+        flex-wrap: wrap;
+        position: relative;
+        top: 390px;
+    }
+}
